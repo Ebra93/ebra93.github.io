@@ -1,9 +1,12 @@
 {
   "app_title": "Kaffeel Trading App",
+  "orders": "Orders",
+  "available_orders": "Available Orders",
   "my_orders": "My Orders",
   "my_reservations": "My Reservations",
   "my_account": "My Account",
   "no_orders": "No orders yet",
+  "no_orders_available": "No orders available",
   "no_reservations": "No reservations yet",
   "orders_history": "Your trading orders will appear here",
   "reservations_history": "Your trading appointments will appear here",
@@ -23,6 +26,7 @@
   "retry": "Retry",
   "error": "Error",
   "date_time": "Date & Time",
+  "status_label": "Status",
   "status": {
     "pending": "Pending",
     "confirmed": "Confirmed",
