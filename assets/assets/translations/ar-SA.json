@@ -1,0 +1,33 @@
+{
+  "app_title": "تطبيق كافيل للتداول",
+  "my_orders": "طلباتي",
+  "my_reservations": "مواعيدي",
+  "my_account": "حسابي",
+  "no_orders": "لا توجد طلبات بعد",
+  "no_reservations": "لا توجد مواعيد بعد",
+  "orders_history": "ستظهر طلبات التداول هنا",
+  "reservations_history": "ستظهر مواعيد التداول هنا",
+  "order": "طلب",
+  "reservation": "موعد",
+  "total": "المجموع",
+  "date": "التاريخ",
+  "items": "العناصر",
+  "buy": "شراء",
+  "sell": "بيع",
+  "at_rate": "بسعر",
+  "trading_type": "نوع التداول",
+  "expected_amount": "المبلغ المتوقع",
+  "meeting_location": "مكان اللقاء",
+  "notes": "ملاحظات",
+  "cancel_reservation": "إلغاء الموعد",
+  "retry": "إعادة المحاولة",
+  "error": "خطأ",
+  "date_time": "التاريخ والوقت",
+  "status": {
+    "pending": "قيد الانتظار",
+    "confirmed": "مؤكد",
+    "processing": "قيد المعالجة",
+    "completed": "مكتمل",
+    "cancelled": "ملغي"
+  }
+}
