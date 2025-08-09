@@ -24,6 +24,7 @@
   "notes": "Notes",
   "cancel_reservation": "Cancel Reservation",
   "retry": "Retry",
+  "loading": "Loading...",
   "error": "Error",
   "date_time": "Date & Time",
   "status_label": "Status",
@@ -33,5 +34,17 @@
     "processing": "Processing",
     "completed": "Completed",
     "cancelled": "Cancelled"
-  }
+  },
+  "my_direct_reservations": "My Direct Reservations",
+  "reservations_on_my_orders": "Reservations on My Orders",
+  "amount": "Amount",
+  "order_type": "Order Type",
+  "order_owner": "Order Owner",
+  "exchange_rate": "Exchange Rate",
+  "reserved_by": "Reserved By",
+  "refreshing": "Refreshing...",
+  "no_direct_reservations": "No Direct Reservations",
+  "direct_reservations_description": "Your reservations on other people's orders will appear here",
+  "no_order_reservations": "No Order Reservations", 
+  "order_reservations_description": "Reservations made by others on your orders will appear here"
 }

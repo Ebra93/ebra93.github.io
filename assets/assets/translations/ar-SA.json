@@ -24,6 +24,7 @@
   "notes": "ملاحظات",
   "cancel_reservation": "إلغاء الحجز",
   "retry": "إعادة المحاولة",
+  "loading": "جاري التحميل...",
   "error": "خطأ",
   "date_time": "التاريخ والوقت",
   "status_label": "الحالة",
@@ -33,6 +34,18 @@
     "processing": "قيد المعالجة",
     "completed": "مكتمل",
     "cancelled": "ملغي"
-  }
+  },
+  "my_direct_reservations": "حجوزاتي المباشرة",
+  "reservations_on_my_orders": "الحجوزات على طلباتي",
+  "amount": "المبلغ",
+  "order_type": "نوع الطلب",
+  "order_owner": "مالك الطلب",
+  "exchange_rate": "سعر الصرف",
+  "reserved_by": "محجوز من قبل",
+  "refreshing": "جاري التحديث...",
+  "no_direct_reservations": "لا توجد حجوزات مباشرة",
+  "direct_reservations_description": "ستظهر هنا حجوزاتك على طلبات الآخرين",
+  "no_order_reservations": "لا توجد حجوزات على طلباتي",
+  "order_reservations_description": "ستظهر هنا الحجوزات التي قام بها الآخرون على طلباتك"
 }
   
