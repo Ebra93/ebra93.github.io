@@ -26856,7 +26856,7 @@ _.e=e
 _.f=f
 _.r=g
 _.w=h},
-aW3(){var s=new A.aj5(A.aHW(null),"https://82.165.141.188:3000/")
+aW3(){var s=new A.aj5(A.aHW(null),"https://everst-glanz.de/")
 s.a3A(null)
 return s},
 aj6(a){return new A.Rb(a)},
@@ -26869,7 +26869,7 @@ all:function all(a){this.a=a},
 aln:function aln(a){this.a=a},
 alm:function alm(a){this.a=a},
 apU:function apU(a){this.a=a},
-a69(){var s=new A.a68(A.aHW(null),"https://82.165.141.188:3000/")
+a69(){var s=new A.a68(A.aHW(null),"https://everst-glanz.de/")
 s.a3p(null)
 return s},
 aH4(a){var s,r,q=J.av(a),p=q.i(a,"access_token")
@@ -91865,7 +91865,7 @@ s=r==null?s.b:r
 r=m.c
 r.toString
 s=A.cf(l,A.bJ(B.pp,A.l(r).ax.b,l,48),B.p,l,l,new A.bS(s,l,l,l,l,l,B.aL),l,l,l,B.bQ,l,l,l)
-r=A.aG("https://82.165.141.188:3000/",l,l,l,l,l,l)
+r=A.aG("https://everst-glanz.de/",l,l,l,l,l,l)
 q=m.c
 q.toString
 q=A.l(q).p1.f
@@ -92058,7 +92058,7 @@ r=A.l(a).ax
 q=r.d
 r=q==null?r.b:q
 r=A.cf(l,A.bJ(B.pk,A.l(a).ax.b,l,32),B.p,l,l,new A.bS(r,l,l,l,l,l,B.aL),l,l,l,B.cQ,l,l,l)
-q=A.aG("https://82.165.141.188:3000/",l,l,l,l,l,l)
+q=A.aG("https://everst-glanz.de/",l,l,l,l,l,l)
 p=A.l(a).p1.f
 p=A.aG("\u062a\u0637\u0628\u064a\u0642 \u0643\u0641\u064a\u0644 \u0644\u0644\u062a\u062f\u0627\u0648\u0644",l,l,l,p==null?l:p.dB(A.l(a).ax.b,B.bf),B.b6,l)
 k=A.TZ(k,B.NJ,B.a5f,!1,new A.arD())
