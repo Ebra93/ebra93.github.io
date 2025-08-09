@@ -1,0 +1,38 @@
+{
+  "app_title": "تطبيق كفيل للتداول",
+  "orders": "الطلبات",
+  "available_orders": "الطلبات المتاحة",
+  "my_orders": "طلباتي",
+  "my_reservations": "حجوزاتي",
+  "my_account": "حسابي",
+  "no_orders": "لا توجد طلبات بعد",
+  "no_orders_available": "لا توجد طلبات متاحة",
+  "no_reservations": "لا توجد حجوزات بعد",
+  "orders_history": "ستظهر طلبات التداول هنا",
+  "reservations_history": "ستظهر حجوزات التداول هنا",
+  "order": "طلب",
+  "reservation": "حجز",
+  "total": "المجموع",
+  "date": "التاريخ",
+  "items": "العناصر",
+  "buy": "شراء",
+  "sell": "بيع",
+  "at_rate": "بسعر",
+  "trading_type": "نوع التداول",
+  "expected_amount": "المبلغ المتوقع",
+  "meeting_location": "مكان الاجتماع",
+  "notes": "ملاحظات",
+  "cancel_reservation": "إلغاء الحجز",
+  "retry": "إعادة المحاولة",
+  "error": "خطأ",
+  "date_time": "التاريخ والوقت",
+  "status_label": "الحالة",
+  "status": {
+    "pending": "قيد الانتظار",
+    "confirmed": "مؤكد",
+    "processing": "قيد المعالجة",
+    "completed": "مكتمل",
+    "cancelled": "ملغي"
+  }
+}
+  
