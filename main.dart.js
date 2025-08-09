@@ -26836,7 +26836,7 @@ _.e=e
 _.f=f
 _.r=g
 _.w=h},
-aVG(){var s=new A.aiV(A.aHx(null),"http://45.10.154.124:3000/")
+aVG(){var s=new A.aiV(A.aHx(null),"https://82.165.141.188:3000/")
 s.a3o(null)
 return s},
 aiW(a){return new A.R1(a)},
@@ -26846,7 +26846,7 @@ aiX:function aiX(){},
 aiY:function aiY(){},
 R1:function R1(a){this.a=a},
 apF:function apF(a){this.a=a},
-a5Z(){var s=new A.a5Y(A.aHx(null),"http://45.10.154.124:3000/")
+a5Z(){var s=new A.a5Y(A.aHx(null),"https://82.165.141.188:3000/")
 s.a3d(null)
 return s},
 aGG(a){var s,r,q=J.av(a),p=q.h(a,"access_token")
@@ -91778,7 +91778,7 @@ r=A.n(a).ax
 q=r.d
 r=q==null?r.b:q
 r=A.cq(l,A.bT(B.pa,A.n(a).ax.b,l,32),B.p,l,l,new A.bY(r,l,l,l,l,l,B.aT),l,l,l,B.dl,l,l,l)
-q=A.b2("http://45.10.154.124:3000/",l,l,l,l,l,l)
+q=A.b2("https://82.165.141.188:3000/",l,l,l,l,l,l)
 p=A.n(a).p1.f
 p=A.b2("\u062a\u0637\u0628\u064a\u0642 \u0643\u0641\u064a\u0644 \u0644\u0644\u062a\u062f\u0627\u0648\u0644",l,l,l,p==null?l:p.dZ(A.n(a).ax.b,B.bO),B.br,l)
 k=A.TO(k,B.Nz,B.a52,!1,new A.ark())
