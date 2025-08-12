@@ -43,6 +43,7 @@
   "my_direct_reservations": "حجوزاتي المباشرة",
   "reservations_on_my_orders": "الحجوزات على طلباتي",
   "amount": "المبلغ",
+  "amount_to": "المبلغ المستهلك",
   "order_type": "نوع الطلب",
   "order_owner": "مالك الطلب",
   "reserved_by": "محجوز من قبل",
@@ -57,8 +58,10 @@
   "procedures": "الجوازات",
   "sham": "شام ",
   "cancel": "إلغاء",
+  "confirm": "تأكيد",
+  "cancel_reservation_confirmation": "هل أنت متأكد من أنك تريد إلغاء هذا الحجز؟",
   "choose_payment_method": "اختر طريقة الدفع",
-  "reserve_order_botton_title": "حجز طلب",
+  "reserve_order_botton_title": "حجز على طلب {order_id}",
   "reserve_input_label": " ادخل المبلغ المراد حجزه",
   "usdt": "USDT",
   "try_again": "حاول مرة أخرى",
@@ -99,6 +102,17 @@
   "no_buy_orders": "لا توجد طلبات شراء",
   "no_sell_orders": "لا توجد طلبات بيع",
   "check_back_later_for_buy_orders": "عد لاحقاً للتحقق من طلبات الشراء الجديدة",
-  "check_back_later_for_sell_orders": "عد لاحقاً للتحقق من طلبات البيع الجديدة"
+  "check_back_later_for_sell_orders": "عد لاحقاً للتحقق من طلبات البيع الجديدة",
+  "notifications": "الإشعارات",
+  "refresh": "تحديث",
+  "edit": "تعديل",
+  "edit_order": "تعديل الطلب",
+  "order_id": "رقم الطلب",
+  "order_updated_successfully": "تم تحديث الطلب بنجاح!",
+  "save_changes": "حفظ التغييرات",
+  "change_password": "تغيير كلمة المرور",
+  "change_password_description": "تحديث كلمة مرور حسابك",
+  "unknown_date": "تاريخ غير معروف",
+  "notes": "ملاحظات"
 }
   
