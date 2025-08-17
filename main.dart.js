@@ -28761,7 +28761,7 @@ _.e=e
 _.f=f
 _.r=g
 _.w=h},
-b4B(){var s=new A.aoC(A.Bo(null),"https://everst-glanz.de/")
+b4B(){var s=new A.aoC(A.Bo(null),"https://everst-glanz.de")
 s.a7W(null)
 return s},
 ir(a){return new A.UB(a)},
@@ -28769,7 +28769,7 @@ aoC:function aoC(a,b){this.a=a
 this.b=b},
 aoD:function aoD(){},
 UB:function UB(a){this.a=a},
-aTM(){var s=new A.ary(A.Bo(null),"https://everst-glanz.de/")
+aTM(){var s=new A.ary(A.Bo(null),"https://everst-glanz.de")
 s.a80(null)
 return s},
 cb(a){return new A.W5(a)},
@@ -28778,7 +28778,7 @@ this.b=b},
 arz:function arz(){},
 W5:function W5(a){this.a=a},
 awp:function awp(a){this.a=a},
-aaH(){var s=new A.aaG(A.Bo(null),"https://everst-glanz.de/")
+aaH(){var s=new A.aaG(A.Bo(null),"https://everst-glanz.de")
 s.a7L(null)
 return s},
 aQ9(a){var s,r,q=J.ae(a),p=q.h(a,"access_token")
@@ -99571,7 +99571,7 @@ J.ew(l,"Content-Type","application/json")
 J.ew(l,"Accept","application/json")
 if(m!=null)J.ew(l,"Authorization","Bearer "+A.j(m))
 s=8
-return A.r(J.aLL(n,"https://everst-glanz.de//api/cancel_reasons",A.l4(l),g),$async$lp)
+return A.r(J.aLL(n,"https://everst-glanz.de/api/cancel_reasons",A.l4(l),g),$async$lp)
 case 8:k=b
 if(k.c===200){j=k.a
 f=J.b4(j,"cancel_reasons")
@@ -99862,7 +99862,7 @@ J.ew(l,"Content-Type","application/json")
 J.ew(l,"Accept","application/json")
 if(m!=null)J.ew(l,"Authorization","Bearer "+A.j(m))
 s=8
-return A.r(J.aLL(n,"https://everst-glanz.de//api/my_payments",A.l4(l),g),$async$kK)
+return A.r(J.aLL(n,"https://everst-glanz.de/api/my_payments",A.l4(l),g),$async$kK)
 case 8:k=b
 if(k.c===200){j=k.a
 f=J.b4(j,"my_payments")
@@ -99919,7 +99919,7 @@ n=A.Bo(null)
 i=t.N
 h=t.z
 s=7
-return A.r(J.aLL(n,"https://everst-glanz.de//api/payment_methods",A.l4(A.W(["Content-Type","application/json","Accept","application/json"],i,h)),h),$async$my)
+return A.r(J.aLL(n,"https://everst-glanz.de/api/payment_methods",A.l4(A.W(["Content-Type","application/json","Accept","application/json"],i,h)),h),$async$my)
 case 7:m=b
 if(m.c===200){l=m.a
 k=J.b4(l,"payment_methods")
@@ -101051,7 +101051,7 @@ s=r==null?s.b:r
 r=m.c
 r.toString
 s=A.aU(l,A.aO(B.qN,A.l(r).ax.b,l,48),B.k,l,l,new A.b6(s,l,l,l,l,l,B.aS),l,l,l,B.c0,l,l,l)
-r=A.C("https://everst-glanz.de/",l,l,l,l,l,l,l)
+r=A.C("https://everst-glanz.de",l,l,l,l,l,l,l)
 q=m.c
 q.toString
 q=A.l(q).p1.f
