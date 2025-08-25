@@ -149,7 +149,6 @@
   "no_user_data_available": "No user data available",
   "unable_to_load_user_info": "Unable to load user information. Please try refreshing or log in again.",
   "account_information": "Account Information",
-  "user_id": "User ID",
   "first_name": "First Name",
   "last_name": "Last Name",
   "username": "Username",
@@ -198,7 +197,6 @@
   "no_payment_proof_images_available": "No payment proof images available",
   "payment_proof_images": "Payment Proof Images",
   "close": "Close",
-  "loading_image": "Loading image...",
   "failed_to_load_image": "Failed to load image",
   "please_check_your_connection": "Please check your connection",
   "images": "images",
@@ -232,6 +230,10 @@
   "provided": "Provided",
   "not_provided": "Not provided",
   "photos_count": "{count} image(s)",
+  "selected_images": "Selected Images",
+  "skip_image_upload": "Skip image upload",
+  "add_more_images": "Add More",
+  "continue_with_images": "Continue with {count} image(s)",
   "this_will_submit_payment_proof": "This will submit your payment proof to the backend for admin review.",
   "no_payment_method_selected": "Error: No payment method selected",
   "no_payment_details_provided": "Error: No payment details provided",
@@ -245,7 +247,6 @@
   "required_actions": "Required Actions",
   "reservation_created": "Reservation Created",
   "reservation_created_awaiting_acceptance": "Reservation created, awaiting acceptance",
-  "order_owner": "Order Owner",
   "reservation_accepted": "Reservation Accepted",
   "reservation_accepted_choose_payment": "Reservation accepted, choose payment method",
   "you": "You",
@@ -272,10 +273,288 @@
   "no_payment_methods_available": "No payment methods available",
   "please_add_payment_method_first": "Please add a payment method first",
   "selected_payment_method": "Selected: {method}. Now you can upload payment proof.",
+  "payment_method": "Payment Method",
+  "continue_reservation": "Continue Reservation",
   "currency": "Currency",
   "payment_details_saved": "Payment details saved! Now you can submit to backend.",
   "are_you_sure_reject_reservation": "Are you sure you want to reject this reservation?",
   "admin_approval_of_other_user": "Admin Approval of Other User",
-  "admin_must_verify_other_user_payment": "Admin must verify other user's payment proof"
+  "admin_must_verify_other_user_payment": "Admin must verify other user's payment proof",
+  "m_ago": "{count}m ago",
+  "h_ago": "{count}h ago",
+  "d_ago": "{count}d ago",
+  "w_ago": "{count}w ago",
+  "test_notification_created": "Test notification created!",
+  "browser_notifications_enabled": "Browser notifications enabled!",
+  "browser_notifications_denied": "Browser notifications permission denied",
+  "enable_browser_notifications": "Enable browser notifications",
 
+
+"buy_order_user_a": {
+    "steps": {
+      "step1": {
+        "title": "You have received a sell order",
+        "content": "Review the order details and decide if you want to accept or reject it. Make sure all details are correct before proceeding."
+      },
+      "step2": {
+        "title": "Waiting for amount to be sent to mediator",
+        "subtitle": "The order owner will send the amount to the mediator"
+      },
+      "step3": {
+        "title": "Waiting for mediator confirmation", 
+        "subtitle": "The mediator will confirm receiving the amount sent to them",
+        "content": "We will send you a message when the mediator confirms receiving the amount sent to them"
+      },
+      "step4": {
+        "title": "Send amount to buyer",
+        "subtitle": "You must send the amount to the buyer and send payment proof",
+        "substeps": {
+          "header": "Transfer Steps ({current}/3)",
+          "step1": {
+            "title": "Get Reservation Owner Details",
+            "description": "Get payment details from reservation owner"
+          },
+          "step2": {
+            "title": "Transfer Money", 
+            "description": "Send required amount to reservation owner account"
+          },
+          "step3": {
+            "title": "Send Payment Proof",
+            "description": "Send payment confirmation to reservation owner"
+          }
+        }
+      },
+      "step5": {
+        "title": "Waiting for buyer confirmation",
+        "subtitle": "The buyer must confirm receiving the amount sent to them",
+        "content": "We will send you a message when the buyer confirms receiving the amount sent to them"
+      },
+      "step6": {
+        "title": "Mediator will send amount to you",
+        "subtitle": "The mediator will send the amount to you and will send you payment proof", 
+        "content": "We will send you a message when the mediator sends the amount to you"
+      },
+      "step7": {
+        "title": "Order completed",
+        "subtitle": "All necessary steps have been completed",
+        "content": "Congratulations! You have successfully completed the order process"
+      }
+    }
+  },
+  "buy_order_user_b": {
+    "steps": {
+      "step1": {
+        "title": "Reservation created",
+        "subtitle": "You have submitted a sell order. Please wait until the other user accepts it",
+        "content": "We will send you a message when the other user accepts the order"
+      },
+      "step2": {
+        "title": "Send amount to mediator", 
+        "subtitle": "You must send the amount to the mediator",
+        "substeps": {
+          "header": "Payment Steps ({current}/3)",
+          "step1": {
+            "title": "Get mediator payment details",
+            "description": "Get payment details from the order owner"
+          },
+          "step2": {
+            "title": "Send amount to mediator",
+            "description": "Send payment proof to the order owner"
+          },
+          "step3": {
+            "title": "Send payment proof",
+            "description": "Write payment details to the order owner"
+          }
+        }
+      },
+      "step3": {
+        "title": "Waiting for mediator confirmation",
+        "subtitle": "The mediator will confirm receiving the amount sent to them",
+        "content": "We will send you a message when the mediator confirms receiving the amount sent to them"
+      },
+      "step4": {
+        "title": "Buyer will send amount to you",
+        "subtitle": "The buyer will send the amount to you and will send you payment proof",
+        "content": "We will send you a message when the buyer sends the proof"
+      },
+      "step5": {
+        "title": "Confirm receiving amount",
+        "subtitle": "You must confirm receiving the amount sent to you"
+      },
+      "step6": {
+        "title": "Order completed",
+        "subtitle": "All necessary steps have been completed",
+        "content": "Congratulations! You have successfully completed the order process"
+      }
+    }
+  },
+  "sell_order_user_a": {
+    "steps": {
+      "step1": {
+        "title": "You have received a buy order",
+        "content": "Review the order details and decide if you want to accept or reject it. Make sure all details are correct before proceeding."
+      },
+      "step2": {
+        "title": "Send amount to mediator",
+        "subtitle": "After sending the amount, please send payment proof to complete this step",
+        "content": ".",
+        "substeps": {
+          "header": "Sub-steps ({current}/3)",
+          "step1": {
+            "title": "Get mediator payment details",
+            "description": "Get payment details from the order owner"
+          },
+          "step2": {
+            "title": "Send amount to mediator",
+            "description": "Send payment proof to the order owner"
+          },
+          "step3": {
+            "title": "Send payment proof",
+            "description": "Write payment details to the order owner"
+          }
+        }
+      },
+      "step3": {
+        "title": "Waiting for mediator confirmation",
+        "subtitle": "The mediator will confirm receiving the amount sent to them",
+        "content": "We will send you a message when the mediator confirms receiving the amount sent to them"
+      },
+      "step4": {
+        "title": "Buyer will send amount to you",
+        "subtitle": "The buyer will send the amount to you and will send you payment proof",
+        "content": "We will send you a message when the buyer sends the proof"
+      },
+      "step5": {
+        "title": "Confirm receiving amount",
+        "subtitle": "You must confirm receiving the amount sent to you"
+      },
+      "step6": {
+        "title": "Order completed",
+        "subtitle": "All necessary steps have been completed",
+        "content": "Congratulations! You have successfully completed the order process"
+      }
+    }
+  },
+  "sell_order_user_b": {
+    "steps": {
+      "step1": {
+        "title": "Reservation created",
+        "subtitle": "You have submitted a buy order. Please wait until the other user accepts it",
+        "content": "We will send you a message when the other user accepts the reservation"
+      },
+      "step2": {
+        "title": "Waiting for other user",
+        "subtitle": "The other user must send money to mediator",
+        "content": "We will send you a message when the other user sends money to the mediator"
+      },
+      "step3": {
+        "title": "Waiting for mediator",
+        "subtitle": "The mediator will confirm receiving the amount sent to them",
+        "content": "We will send you a message when the mediator confirms the money and we will send you payment details"
+      },
+      "step4": {
+        "title": "Send money to other user",
+        "subtitle": "You must send money to the other user. Follow the steps below to complete this process.",
+        "substeps": {
+          "header": "Transfer Steps ({current}/3)",
+          "step1": {
+            "title": "Get order owner payment details",
+            "description": "Get payment details from the order owner"
+          },
+          "step2": {
+            "title": "Send payment proof",
+            "description": "Send payment proof to the order owner"
+          },
+          "step3": {
+            "title": "Give payment details to order owner",
+            "description": "Write payment details to the order owner"
+          }
+        }
+      },
+      "step5": {
+        "title": "Waiting for order owner confirmation",
+        "subtitle": "The order owner must confirm receiving the amount sent to them",
+        "content": "We will send you a message when the order owner confirms receiving the amount sent to them"
+      },
+      "step6": {
+        "title": "Waiting for mediator",
+        "subtitle": "The mediator must send the amount to you",
+        "content": "We will send you a message when the mediator sends the amount to you"
+      },
+      "step7": {
+        "title": "Order completed",
+        "subtitle": "All necessary steps have been completed",
+        "content": "Congratulations! You have successfully completed the order process"
+      }
+    }
+  },
+  "buttons": {
+    "next_step": "Next Step",
+    "previous": "Previous",
+    "cancel": "Cancel",
+    "accept": "Accept",
+    "reject": "Reject",
+    "edit": "Edit",
+    "back": "Back",
+    "next_step_temp": "Next Step (Temp)"
+  },
+  "admin_payment": {
+    "title": "Admin Payment",
+    "get_my_payment": "Get Admin Payment",
+    "get_payment_details_for_order_owner": "Get Payment Details for Order Owner",
+    "amount": "Amount",
+    "account": "Account Number",
+    "bank": "Bank",
+    "beneficiary": "Beneficiary",
+    "instructions": "Payment Instructions",
+    "instructions_text": "Transfer the required amount to the account mentioned above. Make sure to send payment proof after completing the transfer.",
+    "confirm_choose_my_payment": "Confirm",
+    "confirmation_sent": "Payment confirmation sent",
+    "next_step": "Next Step",
+    "coin_wallet": "CoinX Wallet",
+    "coin_email": "CoinX Email",
+    "coin_phone": "CoinX Phone",
+    "coin_usdc": "CoinX USDC"
+  },
+  "my_payment": {
+    "details": "Payment Details",
+    "details_hint": "Write your payment details here..."
+  },
+  "debug": {
+    "moving_to_step": "Moving to step",
+    "moving_back_to_step": "Moving back to step", 
+    "step_changed_to": "Step changed to",
+    "moving_to_substep": "Moving to sub-step",
+    "moving_back_to_substep": "Moving back to sub-step",
+    "already_at_last_step": "Already at last step!",
+    "already_at_first_step": "Already at first step!"
+  },
+  "payment": {
+    "input_details": "Input Payment Details",
+    "send_image": "Send Payment Image",
+    "give_payment_details": "Give Payment Details",
+    "submit_details": "Submit Details",
+    "success": {
+      "details_submitted": "Details submitted successfully"
+    },
+    "upload_receipt": "Upload Payment Receipt",
+    "upload_receipt_description": "Upload your payment receipt image",
+    "upload_payment_proof": "Upload Payment Proof",
+    "upload_payment_proof_desc": "Upload your payment proof image",
+    "add_more_photos": "Add More Photos",
+    "continue": "Continue",
+    "gallery": "Gallery",
+    "photo": "Photo",
+    "photos": "Photos",
+    "uploaded_photos": "Uploaded Photos",
+    "clear_all": "Clear All",
+    "clear_all_photos": "Clear All Photos",
+    "clear_all_photos_confirmation": "Are you sure you want to clear all photos?",
+    "delete_photo": "Delete Photo",
+    "delete_photo_confirmation": "Are you sure you want to delete this photo?",
+    "photo_number": "Photo {number}",
+    "loading_image": "Loading image...",
+    "unable_to_load_image": "Unable to load image",
+    "error": "Error"
+  }
 }
