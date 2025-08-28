@@ -288,7 +288,33 @@
   "browser_notifications_enabled": "Browser notifications enabled!",
   "browser_notifications_denied": "Browser notifications permission denied",
   "enable_browser_notifications": "Enable browser notifications",
-
+  "notification_titles": {
+    "new_reservation_request": "New Reservation Request",
+    "reservation_created": "Reservation Created",
+    "reservation_submitted": "Reservation Submitted",
+    "payment_transfer_required": "Payment Transfer Required",
+    "payment_method_required": "Payment Method Required",
+    "payment_details_required": "Payment Details Required",
+    "payment_proof_required": "Payment Proof Required",
+    "usdt_transfer_proof_required": "USDT Transfer Proof Required",
+    "under_review": "Under Review",
+    "approval_required": "Approval Required",
+    "reservation_completed": "Reservation Completed",
+    "reservation_cancelled": "Reservation Cancelled",
+    "reservation_update": "Reservation Update"
+  },
+  "notification_messages": {
+    "new_reservation_request_awaiting_approval": "You have a new reservation request {id} awaiting your approval",
+    "reservation_request_awaiting_approval": "Your reservation request {id} is awaiting approval",
+    "select_payment_method_for_reservation": "Please select a payment method for reservation {id}",
+    "provide_payment_details_for_reservation": "Please provide payment details for reservation {id}",
+    "upload_payment_proof_for_reservation": "Please upload payment proof for reservation {id}",
+    "reservation_under_admin_review": "Reservation {id} is under admin review",
+    "review_and_approve_payment_for_reservation": "Please review and approve payment for reservation {id}",
+    "reservation_completed_successfully": "Reservation {id} has been completed successfully",
+    "reservation_cancelled": "Reservation {id} has been cancelled",
+    "reservation_updated": "Reservation {id} has been updated"
+  },
 
 "buy_order_user_a": {
     "steps": {

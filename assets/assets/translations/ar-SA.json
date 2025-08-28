@@ -288,6 +288,33 @@
   "browser_notifications_enabled": "تم تفعيل إشعارات المتصفح!",
   "browser_notifications_denied": "تم رفض إذن إشعارات المتصفح",
   "enable_browser_notifications": "تفعيل إشعارات المتصفح",
+  "notification_titles": {
+    "new_reservation_request": "طلب حجز جديد",
+    "reservation_created": "تم إنشاء الحجز",
+    "reservation_submitted": "تم تقديم الحجز",
+    "payment_transfer_required": "مطلوب تحويل الدفع",
+    "payment_method_required": "مطلوبة طريقة الدفع",
+    "payment_details_required": "مطلوبة تفاصيل الدفع",
+    "payment_proof_required": "مطلوب إثبات الدفع",
+    "usdt_transfer_proof_required": "مطلوب إثبات تحويل USDT",
+    "under_review": "قيد المراجعة",
+    "approval_required": "مطلوب الموافقة",
+    "reservation_completed": "تم إكمال الحجز",
+    "reservation_cancelled": "تم إلغاء الحجز",
+    "reservation_update": "تحديث الحجز"
+  },
+  "notification_messages": {
+    "new_reservation_request_awaiting_approval": "لديك طلب حجز جديد {id} في انتظار موافقتك",
+    "reservation_request_awaiting_approval": "طلب الحجز الخاص بك {id} في انتظار الموافقة",
+    "select_payment_method_for_reservation": "يرجى اختيار طريقة الدفع للحجز {id}",
+    "provide_payment_details_for_reservation": "يرجى تقديم تفاصيل الدفع للحجز {id}",
+    "upload_payment_proof_for_reservation": "يرجى رفع إثبات الدفع للحجز {id}",
+    "reservation_under_admin_review": "الحجز {id} قيد مراجعة الإدارة",
+    "review_and_approve_payment_for_reservation": "يرجى مراجعة والموافقة على الدفع للحجز {id}",
+    "reservation_completed_successfully": "تم إكمال الحجز {id} بنجاح",
+    "reservation_cancelled": "تم إلغاء الحجز {id}",
+    "reservation_updated": "تم تحديث الحجز {id}"
+  },
 "buy_order_user_a": {
     "steps": {
       "step1": {
