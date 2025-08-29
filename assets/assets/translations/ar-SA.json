@@ -116,6 +116,7 @@
   "change_password_description": "تحديث كلمة مرور حسابك",
   "unknown_date": "تاريخ غير معروف",
   "create_order": "إنشاء طلب",
+  "old_reservations": "الحجوزات القديمة",
   "payment_methods": "طرق الدفع",
   "amount_required": "المبلغ مطلوب",
   "amount_must_be_number": "يجب أن يكون المبلغ رقماً",
@@ -581,6 +582,15 @@
     "loading_image": "جاري تحميل الصورة...",
     "unable_to_load_image": "تعذر تحميل الصورة",
     "error": "خطأ"
-  }
+  },
+  "settings": "الإعدادات",
+  "help_support": "المساعدة والدعم",
+  "about": "حول",
+  "guest_user": "مستخدم ضيف",
+  "no_phone_number": "لا يوجد رقم هاتف",
+  "error_loading_profile": "خطأ في تحميل الملف الشخصي",
+  "tap_to_retry": "اضغط لإعادة المحاولة",
+  "logout_successful": "تم تسجيل الخروج بنجاح",
+  "logout_failed": "فشل تسجيل الخروج: {error}"
 }
   

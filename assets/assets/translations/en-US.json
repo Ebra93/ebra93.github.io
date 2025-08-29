@@ -113,6 +113,7 @@
   "change_password_description": "Update your account password",
   "unknown_date": "Unknown Date",
   "create_order": "Create Order",
+  "old_reservations": "Old Reservations",
   "amount_to": "Amount To",
   "payment_methods": "Payment Methods",
   "amount_required": "Amount is required",
@@ -582,5 +583,14 @@
     "loading_image": "Loading image...",
     "unable_to_load_image": "Unable to load image",
     "error": "Error"
-  }
+  },
+  "settings": "Settings",
+  "help_support": "Help & Support",
+  "about": "About",
+  "guest_user": "Guest User",
+  "no_phone_number": "No phone number",
+  "error_loading_profile": "Error loading profile",
+  "tap_to_retry": "Tap to retry",
+  "logout_successful": "Logout successful",
+  "logout_failed": "Logout failed: {error}"
 }
