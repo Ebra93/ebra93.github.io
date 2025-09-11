@@ -28949,7 +28949,7 @@ arO:function arO(a,b){this.a=a
 this.b=b},
 VS:function VS(a){this.a=a},
 xV:function xV(a){this.a=a},
-auO(){var s="http://192.168.0.58:3000",r="application/json",q=A.wo(null),p=q.fR$
+auO(){var s="https://everst-glanz.de",r="application/json",q=A.wo(null),p=q.fR$
 p===$&&A.b()
 p.swW(s)
 q.fR$.sxf(A.cL(0,0,10))
@@ -28966,7 +28966,7 @@ auN:function auN(a,b){this.a=a
 this.b=b},
 Xl:function Xl(a){this.a=a},
 aAo:function aAo(a){this.a=a},
-ac8(){var s="http://192.168.0.58:3000",r="application/json",q=A.wo(null),p=q.fR$
+ac8(){var s="https://everst-glanz.de",r="application/json",q=A.wo(null),p=q.fR$
 p===$&&A.b()
 p.swW(s)
 q.fR$.sxf(A.cL(0,0,10))
@@ -29025,7 +29025,7 @@ aAG:function aAG(a){this.a=a},
 aAH:function aAH(){},
 aAI:function aAI(a,b){this.a=a
 this.b=b},
-auR(){return new A.auQ(A.wo(A.aUh("http://192.168.0.58:3000",A.cL(0,0,10),A.cL(0,0,10))))},
+auR(){return new A.auQ(A.wo(A.aUh("https://everst-glanz.de",A.cL(0,0,10),A.cL(0,0,10))))},
 auQ:function auQ(a){this.a=a},
 qJ:function qJ(a,b){var _=this
 _.a=a
@@ -31603,7 +31603,7 @@ if(m)if(o.length!==0){p=n.length!==0
 l=p}A.aU().$1("\ud83d\udd0d WebSocket can connect: "+l)
 A.aU().$1("   Token: "+(m?"Present":"Missing"))
 A.aU().$1("   User ID: "+n)
-A.aU().$1("   Base URL: http://192.168.0.58:3000")
+A.aU().$1("   Base URL: https://everst-glanz.de")
 q=l
 s=1
 break
@@ -31612,7 +31612,7 @@ return A.v($async$ZS,r)},
 HA(){var s=0,r=A.w(t.Kb),q,p,o,n,m
 var $async$HA=A.x(function(a,b){if(a===1)return A.t(b,r)
 while(true)switch(s){case 0:p=A
-o="http://192.168.0.58:3000"
+o="https://everst-glanz.de"
 n="telegramUserId"
 s=3
 return A.o(A.HB(),$async$HA)
@@ -100092,7 +100092,7 @@ J.eK(l,"Content-Type","application/json")
 J.eK(l,"Accept","application/json")
 if(m!=null)J.eK(l,"Authorization","Bearer "+A.j(m))
 s=8
-return A.o(J.aPK(n,"http://192.168.0.58:3000/api/cancel_reasons",A.kw(null,l),g),$async$ly)
+return A.o(J.aPK(n,"https://everst-glanz.de/api/cancel_reasons",A.kw(null,l),g),$async$ly)
 case 8:k=b
 if(k.c===200){j=k.a
 f=J.aW(j,"cancel_reasons")
@@ -100391,7 +100391,7 @@ J.eK(l,"Content-Type","application/json")
 J.eK(l,"Accept","application/json")
 if(m!=null)J.eK(l,"Authorization","Bearer "+A.j(m))
 s=8
-return A.o(J.aPK(n,"http://192.168.0.58:3000/api/my_payments",A.kw(null,l),g),$async$k5)
+return A.o(J.aPK(n,"https://everst-glanz.de/api/my_payments",A.kw(null,l),g),$async$k5)
 case 8:k=b
 if(k.c===200){j=k.a
 f=J.aW(j,"my_payments")
@@ -100538,7 +100538,7 @@ n=A.wo(null)
 i=t.N
 h=t.z
 s=7
-return A.o(J.aPK(n,"http://192.168.0.58:3000/api/payment_methods",A.kw(null,A.a2(["Content-Type","application/json","Accept","application/json"],i,h)),h),$async$mP)
+return A.o(J.aPK(n,"https://everst-glanz.de/api/payment_methods",A.kw(null,A.a2(["Content-Type","application/json","Accept","application/json"],i,h)),h),$async$mP)
 case 7:m=b
 if(m.c===200){l=m.a
 k=J.aW(l,"payment_methods")
@@ -102549,7 +102549,7 @@ s.Bn()
 return s},
 $S:592}
 A.aqr.prototype={
-$1(a){var s="http://192.168.0.58:3000",r="application/json",q=A.wo(null),p=q.fR$
+$1(a){var s="https://everst-glanz.de",r="application/json",q=A.wo(null),p=q.fR$
 p===$&&A.b()
 p.swW(s)
 q.fR$.sxf(A.cL(0,0,10))
@@ -102812,7 +102812,7 @@ s=r==null?s.b:r
 r=m.c
 r.toString
 s=A.a0(l,A.ab(B.rl,A.c(r).ax.b,l,l,48),B.h,l,l,new A.ad(s,l,l,l,l,l,B.as),l,l,l,l,B.bq,l,l,l)
-r=A.q("http://192.168.0.58:3000",l,l,l,l,l,l,l)
+r=A.q("https://everst-glanz.de",l,l,l,l,l,l,l)
 q=m.c
 q.toString
 q=A.c(q).p1.f
@@ -108309,7 +108309,7 @@ s.F$=0
 this.aL()},
 w8(){var s=0,r=A.w(t.H),q=this,p,o,n
 var $async$w8=A.x(function(a,b){if(a===1)return A.t(b,r)
-while(true)switch(s){case 0:p=A.j5("http://192.168.0.58:3000",t.N)
+while(true)switch(s){case 0:p=A.j5("https://everst-glanz.de",t.N)
 o=A
 s=2
 return A.o(p,$async$w8)
