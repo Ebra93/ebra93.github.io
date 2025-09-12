@@ -277,6 +277,7 @@
   "none": "None",
   "select_payment_method_title": "Select Payment Method",
   "no_payment_methods_available": "No payment methods available",
+  "failed_to_load_payment_methods": "Failed to load payment methods",
   "please_add_payment_method_first": "Please add a payment method first",
   "selected_payment_method": "Selected: {method}. Now you can upload payment proof.",
   "payment_method": "Payment Method",
@@ -598,5 +599,6 @@
   "error_loading_profile": "Error loading profile",
   "tap_to_retry": "Tap to retry",
   "logout_successful": "Logout successful",
-  "logout_failed": "Logout failed: {error}"
+  "logout_failed": "Logout failed: {error}",
+  "copied_to_clipboard": "Copied to clipboard"
 }

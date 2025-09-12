@@ -40,6 +40,24 @@
     "completed": "مكتمل",
     "cancelled": "ملغي"
   },
+  "other_payment_details": "تفاصيل الدفع الأخرى",
+  "created_at": "تاريخ الإنشاء",
+  "reservation_status": {
+    "status": "حالة الحجز",
+    "active": "نشط",
+    "waiting_for_payment_details": "قيد الانتظار لتفاصيل الدفع",
+    "waiting_for_acceptance_from_second_customer": "قيد الانتظار لقبول الطرف الثاني",
+    "waiting_for_payment_proof": "قيد الانتظار لإثبات الدفع",
+    "waiting_for_wallet_address": "قيد الانتظار لعنوان المحفظة",
+    "waiting_for_usdt_transfer_proof": "قيد الانتظار لإثبات التحويل",
+    "waiting_for_admin_confirmation": "قيد الانتظار لتأكيد المشرف",
+    "waiting_for_buyer_payment_proof": "قيد الانتظار لإثبات الدفع من قبل المشتري",
+    "waiting_for_seller_final_confirmation": "قيد الانتظار لتأكيد البيع من قبل البائع",
+    "waiting_for_send_usdt_from_admin_details": "قيد الانتظار لإرسال USDT من قبل المشرف",
+    "completed": "مكتمل",
+    "cancelled": "ملغي"
+  },
+
   "my_direct_reservations": "حجوزاتي المباشرة",
   "reservations_on_my_orders": "الحجوزات على طلباتي",
   "amount": "المبلغ",
@@ -281,6 +299,7 @@
   "none": "لا يوجد",
   "select_payment_method_title": "اختيار طريقة الدفع",
   "no_payment_methods_available": "لا توجد طرق دفع متاحة",
+  "failed_to_load_payment_methods": "فشل في تحميل طرق الدفع",
   "please_add_payment_method_first": "يرجى إضافة طريقة دفع أولاً",
   "selected_payment_method": "تم اختيار: {method}. يمكنك الآن رفع إثبات الدفع.",
   "currency": "العملة",
@@ -374,6 +393,9 @@
       }
     }
   },
+  "order_owner_payment": {
+    "title": "تفاصيل الدفع للطرف الآخر"
+  },
   "buy_order_user_b": {
     "steps": {
       "step1": {
@@ -406,9 +428,9 @@
         "content": "سنرسل لك رسالة عندما يؤكد الوسيط استلام المبلغ المرسل له"
       },
       "step4": {
-        "title": "سيقوم المشتري بإرسال المبلغ لك",
-        "subtitle": "سيقوم المشتري بإرسال المبلغ لك وسيرسل لك إثبات الدفع",
-        "content": "سنرسل لك رسالة عندما يرسل المشتريبارسال الاثبات"
+        "title": "سيقوم الطرف الآخر بإرسال المبلغ لك",
+        "subtitle": "سيقوم الطرف الآخر بإرسال المبلغ لك وسيرسل لك إثبات الدفع",
+        "content": "سنرسل لك رسالة عندما يرسل الطرف الآخر بارسال الاثبات"
       },
       "step5": {
         "title": "تأكيد استلام المبلغ",
@@ -599,6 +621,7 @@
   "error_loading_profile": "خطأ في تحميل الملف الشخصي",
   "tap_to_retry": "اضغط لإعادة المحاولة",
   "logout_successful": "تم تسجيل الخروج بنجاح",
-  "logout_failed": "فشل تسجيل الخروج: {error}"
+  "logout_failed": "فشل تسجيل الخروج: {error}",
+  "copied_to_clipboard": "تم النسخ إلى الحافظة"
 }
   
