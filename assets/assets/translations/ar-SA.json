@@ -176,7 +176,7 @@
   "no_user_data_available": "لا توجد بيانات مستخدم متاحة",
   "unable_to_load_user_info": "تعذر تحميل معلومات المستخدم. يرجى المحاولة مرة أخرى أو تسجيل الدخول مرة أخرى.",
   "account_information": "معلومات الحساب",
-  "user_id": "معرف المستخدم",
+  "phone_number": "رقم الهاتف",
   "first_name": "الاسم الأول",
   "last_name": "اسم العائلة",
   "username": "اسم المستخدم",
@@ -622,6 +622,12 @@
   "tap_to_retry": "اضغط لإعادة المحاولة",
   "logout_successful": "تم تسجيل الخروج بنجاح",
   "logout_failed": "فشل تسجيل الخروج: {error}",
-  "copied_to_clipboard": "تم النسخ إلى الحافظة"
+  "copied_to_clipboard": "تم النسخ إلى الحافظة",
+  "delete": "حذف",
+  "delete_order": "حذف الطلب",
+  "delete_order_confirmation": "هل أنت متأكد من حذف هذا الطلب؟",
+  "order_deleted_successfully": "تم حذف الطلب بنجاح!",
+  "failed_to_delete_order": "فشل في حذف الطلب",
+  "delete_order_content": "لا يمكن التراجع عن هذا الإجراء. هل أنت متأكد من المتابعة؟"
 }
   

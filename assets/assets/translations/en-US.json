@@ -216,7 +216,7 @@
   "no_payment_details_available": "No payment details available",
   "latest_payment_detail": "Latest Payment Detail",
   "payment_detail": "Payment Detail",
-  "user_id": "User ID",
+  "phone_number": "Phone Number",
   "continue": "Continue",
   "moving_to_payment_preparation_step": "Moving to payment preparation step...",
   "payment_proof_photos_step_6": "Payment Proof Photos (Step 6)",
@@ -600,5 +600,11 @@
   "tap_to_retry": "Tap to retry",
   "logout_successful": "Logout successful",
   "logout_failed": "Logout failed: {error}",
-  "copied_to_clipboard": "Copied to clipboard"
+  "copied_to_clipboard": "Copied to clipboard",
+  "delete": "Delete",
+  "delete_order": "Delete Order",
+  "delete_order_confirmation": "Are you sure you want to delete this order?",
+  "order_deleted_successfully": "Order deleted successfully!",
+  "failed_to_delete_order": "Failed to delete order",
+  "delete_order_content": "This action cannot be undone. Are you sure you want to proceed?"
 }
